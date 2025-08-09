@@ -1,6 +1,4 @@
-publish:
+- source: project
   quarto-pub:
-    user: davidsonloiolla@gmail.com
-    site: ipcaforluzqmd
-    output:
-      - IPCAForluz.qmd
+    - id: cff52ca0-d893-4575-85fc-37bac3a72dbd
+      url: 'https://davidson.quarto.pub/ipcaforluzqmd'

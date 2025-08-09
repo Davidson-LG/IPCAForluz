@@ -227,7 +227,7 @@ difusao_tratado = (
 
 ## *Headline*
 
-O IPCA do mês registrou variação de X%, refletindo os movimentos recentes nos preços dos principais grupos pesquisados. Destacam-se as contribuições de alimentação, transportes e habitação, que apresentaram comportamentos distintos em relação ao mês anterior. O resultado mantém a inflação acumulada em 12 meses dentro do intervalo das metas estabelecidas pelo Banco Central, indicando um cenário de estabilidade, apesar de pressões pontuais em alguns segmentos.
+A inflação medida pelo IPCA apresenta sinais de arrefecimento, com desaceleração tanto no índice geral quanto nos principais núcleos acompanhados pelo Banco Central. A difusão da alta de preços também recua, indicando menor dispersão inflacionária entre os grupos de bens e serviços. Apesar disso, alguns segmentos, como serviços, ainda mostram resiliência, enquanto alimentação no domicílio e bens industriais contribuem para o alívio. O cenário sugere convergência gradual da inflação para patamares mais próximos da meta, mas requer monitoramento diante de possíveis choques e incertezas externas.
 
 ```{python}
 #| fig-align: center
@@ -358,7 +358,7 @@ grafico_variacao_grupo = (
 
 ## *Ponderação por grupo de itens*
 
-O grupo de habitação teve a principal contribuição nos preços no último mês. Além disso, observa-se que alimentação e transportes também apresentaram participações relevantes, refletindo movimentos específicos desses segmentos no período analisado.
+A análise do gráfico de contribuição por grupo mostra que, no último mês, o grupo de habitação foi o principal responsável pela variação do IPCA, seguido por alimentação e transportes. Esses grupos apresentaram as maiores participações positivas, indicando que pressões nesses segmentos foram determinantes para o resultado geral da inflação no período, enquanto outros grupos tiveram impacto mais moderado ou até negativo.
 
 
 ```{python}
@@ -432,7 +432,7 @@ cores_contribuicao = {
 ## *Variação em 12 meses: diferentes classificações*
 
 
-Em termos de variação por diferentes grupos de classificação observados pelo Banco Central, vê-se uma redução da média móvel de 12 meses para alguns itens, com destaque para o alívio em alimmentação no domicílio. Bens industriais também respondem positivamente, em meio à apreciação do câmbio. No entanto, os serviços continuam pressionados e sem sinais de arrefecimento mais forte.
+O gráfico mostra que, nos últimos meses, a inflação acumulada em 12 meses apresenta desaceleração em diversos grupos, especialmente em alimentação no domicílio e bens industriais, refletindo alívio de pressões nesses segmentos. Por outro lado, o grupo de serviços mantém variação elevada, indicando resiliência e persistência inflacionária nesse componente. A diferença de comportamento entre os grupos evidencia que, embora o cenário geral seja de descompressão, parte da inflação segue concentrada em serviços, o que exige atenção para a convergência plena à meta.
 
 
 ```{python}
@@ -489,7 +489,7 @@ cores_classificacao = {
 
 ## *Índice de Difusão*
 
-O grau de dispersão da inflação tem mostrado alívio, o que vai ao encontro da percepção de arrefecimento inflacionário. 
+O gráfico do índice de difusão mostra recuo consistente tanto na métrica mensal quanto na acumulada em 12 meses, indicando que a alta de preços está menos disseminada entre os itens do IPCA. Esse movimento sugere um ambiente inflacionário mais concentrado e menor pressão generalizada, reforçando sinais de descompressão e convergência da inflação para níveis mais próximos da meta.
 
 
 
@@ -562,7 +562,7 @@ ultimo_dado = (
 
 
 ## *Núcleos de inflação - BCB*
-Os núcleos de inflação têm arrefecido. Todos eles indicaram suavização em relação aos meses anteriores. A média dos principais núcleos segue em trajetória de queda, refletindo o impacto do ambiente macroeconômico mais favorável e da redução das pressões de custos. Apesar disso, alguns componentes ainda permanecem acima do centro da meta, sugerindo cautela na avaliação do cenário prospectivo. O comportamento benigno dos núcleos reforça a sinalização de convergência da inflação para patamares mais próximos do objetivo estabelecido pelo Banco Central, mas o monitoramento contínuo segue sendo fundamental diante de possíveis choques de oferta ou mudanças no cenário internacional.
+O gráfico dos núcleos de inflação em 12 meses revela uma trajetória de desaceleração recente na média dos principais núcleos acompanhados pelo Banco Central, indicando arrefecimento das pressões inflacionárias subjacentes. Apesar de oscilações entre as diferentes medidas, observa-se convergência para patamares mais baixos, reforçando o cenário de descompressão inflacionária e maior proximidade com a meta estabelecida, embora o acompanhamento contínuo seja necessário diante de possíveis choques e persistências em alguns componentes.
 
 ```{python}
 #| fig-align: center

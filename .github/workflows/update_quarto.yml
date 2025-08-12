@@ -25,7 +25,7 @@ jobs:
       - name: Instalar dependências Python
         run: |
           python -m pip install --upgrade pip
-          pip install pandas sidrapy plotnine matplotlib datetime python-bcb dbnomics
+          pip install pandas sidrapy plotnine matplotlib datetime python-bcb dbnomics notebook jupyterlab ipykernel pyyaml nbformat nbclient
 
       - name: Renderizar e publicar com tentativas
         env:

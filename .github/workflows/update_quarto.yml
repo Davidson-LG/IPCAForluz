@@ -15,7 +15,7 @@ jobs:
       - name: Instalar Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: "latest"
+          version: "1.3.340" # Versão estável do Quarto para evitar erro 404
 
       - name: Instalar Python
         uses: actions/setup-python@v5
